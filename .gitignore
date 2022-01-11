@@ -34,4 +34,4 @@ build/
 .vscode/
 
 ### Config ###
-/src/main/java/com.danielto.awsimageupload/config
+/src/main/java/com/danielto/awsimageupload/config/AmazonConfig.java
