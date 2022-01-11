@@ -18,8 +18,8 @@ public class AmazonConfig {
         );
 
         return AmazonS3ClientBuilder
-                .standard()
-                .withCredentials(new AWSStaticCredentialsProvider(awsCredentials))
-                .build();
+            .standard()
+            .withCredentials(new AWSStaticCredentialsProvider(awsCredentials))
+            .build();
     }
 }
